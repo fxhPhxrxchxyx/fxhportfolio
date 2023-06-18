@@ -11,7 +11,7 @@ const Bio = () => {
         alignItems: "center",
       }}
     >
-      <Box sx={{ marginRight: "20px" }}>
+      <Box sx={{ marginRight: "20px", marginBottom: { xs: "10px" } }}>
         <Avatar
           alt="profile pic"
           src={pic}
@@ -29,7 +29,7 @@ const Bio = () => {
           variant="h3"
           sx={{
             marginBottom: "20px",
-            fontSize: { xs: "1.5rem", md: "2rem" },
+            fontSize: { xs: "1.5rem", md: "2.5rem" },
           }}
         >
           Phurichaya Khemvaraporn (Fah)
