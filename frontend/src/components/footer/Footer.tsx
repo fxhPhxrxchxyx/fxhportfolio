@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <p style={{ textAlign: "center" }}>
-        All right reserved © Copyright by Phurichaya Khemvaraporn (fxhphu)
+        All right reserved © by Phurichaya Khemvaraporn (fxhphu)
       </p>
     </footer>
   );

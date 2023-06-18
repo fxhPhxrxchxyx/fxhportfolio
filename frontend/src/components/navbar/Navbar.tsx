@@ -4,9 +4,11 @@ import useBreakpoint from "../../hook/useBreakpoint";
 import { IconButton, Switch, Typography, useTheme } from "@mui/material";
 import styles from "./Navbar.module.css";
 import NavbarItem from "./NavbarItem";
-type Props = { setDark: Function };
-const Navbar: React.FC<Props> = ({ setDark }) => {
-  const theme = useTheme();
+// type Props = { setDark: Function };
+//<Props>
+const Navbar: React.FC = () => {
+  //({ setDark })
+  // const theme = useTheme();
   const [expanded, setExpanded] = React.useState(false);
   const breakpoint = useBreakpoint();
   const toggleExpanded = () => {
@@ -14,49 +16,30 @@ const Navbar: React.FC<Props> = ({ setDark }) => {
   };
 
   return (
-    <div
-      className={
-        theme.palette.mode === "light" ? styles.wrapper : styles.wrapperDark
-      }
-    >
-      <div className={styles.nav}>
-        {expanded && (
-          <div
-            style={{ position: "fixed", inset: 0, zIndex: -1 }}
-            onClick={toggleExpanded}
-          />
-        )}
-        {breakpoint < 600 ? (
-          <IconButton
-            sx={{ zIndex: 1000 }}
-            onClick={() => {
-              setExpanded((expanded) => !expanded);
-            }}
-          >
-            <MenuIcon />
-          </IconButton>
-        ) : (
-          <Typography>fxhPhu</Typography>
-        )}
+    <div className={styles.nav}>
+      {/* {expanded && (
         <div
-          className={
-            styles.navItems +
-            " " +
-            (expanded && styles.navItemsActive) +
-            " " +
-            (theme.palette.mode === "dark" && styles.navItemsDark)
-          }
+          style={{ position: "fixed", inset: 0, zIndex: -1 }}
+          onClick={toggleExpanded}
         />
-        <NavbarItem action={toggleExpanded} name="Home" path="/home" />
-        <NavbarItem action={toggleExpanded} name="About" path="/about" />
-        <NavbarItem action={toggleExpanded} name="Project" path="/project" />
-        <NavbarItem action={toggleExpanded} name="Contact" path="/contact" />
-        <Switch
+      )}
+      {breakpoint < 600 ? (
+        <IconButton
+          sx={{ zIndex: 1000 }}
           onClick={() => {
-            setDark((dark: boolean) => !dark);
+            setExpanded((expanded) => !expanded);
           }}
-        />
-      </div>
+        >
+          <MenuIcon />
+        </IconButton>
+      ) : (
+        ""
+      )} */}
+
+      <NavbarItem action={toggleExpanded} name="Home" path="/home" />
+      <NavbarItem action={toggleExpanded} name="About" path="/about" />
+      <NavbarItem action={toggleExpanded} name="Project" path="/project" />
+      <NavbarItem action={toggleExpanded} name="Contact" path="/contact" />
     </div>
   );
 };
