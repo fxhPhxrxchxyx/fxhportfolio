@@ -46,7 +46,7 @@ const About = () => {
 
   return (
     <Container>
-      <Bio />
+      <Bio position={true} />
       <Divider sx={{ margin: "10px 0" }} />
       <Typography
         variant="h3"

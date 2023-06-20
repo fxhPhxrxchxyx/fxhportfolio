@@ -43,7 +43,7 @@ const Bio: React.FC<Props> = ({ position }) => {
             text="Phurichaya Khemvaraporn (Fah)"
           />
         </Typography>
-        {/* {position ? (
+        {position ? (
           <Box display="flex" flexDirection="row">
             <Divider
               orientation="vertical"
@@ -67,12 +67,12 @@ const Bio: React.FC<Props> = ({ position }) => {
           </Box>
         ) : (
           ""
-        )} */}
+        )}
         <Typography
           variant="h6"
           sx={{
             fontSize: { xs: "1.35rem", md: "2rem" },
-            marginBottom: "30px",
+            marginBottom: "10px",
           }}
         >
           {bio.description}
