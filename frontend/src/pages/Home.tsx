@@ -6,6 +6,15 @@ const Home = () => {
   return (
     <Box>
       <Bio />
+      <Typography
+        variant="h4"
+        sx={{
+          fontSize: { xs: "1.5rem", md: "2.5rem" },
+          margin: "30px 0",
+        }}
+      >
+        Skills
+      </Typography>
     </Box>
   );
 };
