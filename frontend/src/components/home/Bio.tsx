@@ -1,7 +1,7 @@
 import { Avatar, Box, Typography } from "@mui/material";
-import "./bio.css";
 import pic from "../../pic/fxh.jpg";
-import React from "react";
+import Typewriter from "react-ts-typewriter";
+import { bio } from "../content/Biodata.js";
 const Bio = () => {
   return (
     <Box
@@ -11,7 +11,7 @@ const Bio = () => {
         alignItems: "center",
       }}
     >
-      <Box sx={{ marginRight: "20px", marginBottom: { xs: "10px" } }}>
+      <Box sx={{ marginRight: "20px", marginBottom: { xs: "20px" } }}>
         <Avatar
           alt="profile pic"
           src={pic}
@@ -19,8 +19,8 @@ const Bio = () => {
             width: { xs: 200, md: 300 },
             height: { xs: 200, md: 300 },
             margin: "0 20px",
+            boxShadow: 6,
           }}
-          className="bio"
         />
       </Box>
 
@@ -28,14 +28,24 @@ const Bio = () => {
         <Typography
           variant="h3"
           sx={{
-            marginBottom: "20px",
-            fontSize: { xs: "1.5rem", md: "2.5rem" },
+            marginBottom: "10px",
+            fontWeight: "bold",
+
+            fontSize: { xs: "1.25rem", md: "2.5rem" },
           }}
         >
-          Phurichaya Khemvaraporn (Fah)
+          <Typewriter
+            loop={true}
+            speed={45}
+            delay={2000}
+            text="Phurichaya Khemvaraporn (Fah)"
+          />
         </Typography>
-        <Typography variant="h6">
-          “Currently I am a Sophomore of Computer Science student at SIT KMUTT.”
+        <Typography
+          variant="h6"
+          sx={{ fontSize: { xs: "1.0rem", md: "1.75rem" } }}
+        >
+          {bio.description}
         </Typography>
       </Box>
     </Box>
