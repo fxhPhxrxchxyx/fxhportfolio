@@ -2,7 +2,9 @@ import { Avatar, Box, Typography } from "@mui/material";
 import pic from "../../pic/fxh.jpg";
 import Typewriter from "react-ts-typewriter";
 import { bio } from "../content/Biodata.js";
-const Bio = () => {
+import { Divider } from "@mui/material";
+type Props = { position?: boolean };
+const Bio: React.FC<Props> = ({ position }) => {
   return (
     <Box
       sx={{
@@ -41,6 +43,31 @@ const Bio = () => {
             text="Phurichaya Khemvaraporn (Fah)"
           />
         </Typography>
+        {/* {position ? (
+          <Box display="flex" flexDirection="row">
+            <Divider
+              orientation="vertical"
+              sx={{
+                marginBottom: "10px",
+                height: "30px",
+                width: "5px",
+                display: "flex",
+                alignItems: "start",
+                backgroundColor: "#EF5DA8",
+                marginRight: "10px",
+              }}
+            />
+            <Typography
+              variant="h5"
+              color="#EF5DA8"
+              sx={{ fontSize: { xs: "1.25rem", md: "1.75rem" } }}
+            >
+              {bio.position}
+            </Typography>
+          </Box>
+        ) : (
+          ""
+        )} */}
         <Typography
           variant="h6"
           sx={{ fontSize: { xs: "1.0rem", md: "1.75rem" } }}
