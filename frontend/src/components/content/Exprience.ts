@@ -6,7 +6,7 @@ export type Exprience = {
   description: String;
 };
 
-export const exprience: Exprience[] = [
+export const experience: Exprience[] = [
   {
     id: 1,
     project:

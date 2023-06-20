@@ -33,7 +33,7 @@ const Bio: React.FC<Props> = ({ position }) => {
             marginBottom: "10px",
             fontWeight: "bold",
 
-            fontSize: { xs: "1.25rem", md: "2.5rem" },
+            fontSize: { xs: "1.35rem", md: "2rem" },
           }}
         >
           <Typewriter
@@ -70,7 +70,10 @@ const Bio: React.FC<Props> = ({ position }) => {
         )} */}
         <Typography
           variant="h6"
-          sx={{ fontSize: { xs: "1.0rem", md: "1.75rem" } }}
+          sx={{
+            fontSize: { xs: "1.35rem", md: "2rem" },
+            marginBottom: "30px",
+          }}
         >
           {bio.description}
         </Typography>
