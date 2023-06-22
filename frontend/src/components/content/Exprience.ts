@@ -12,7 +12,7 @@ export const experience: Exprience[] = [
     project:
       "Front-end of Chromecast lock screen projector for SIT hackathon 2023",
     position: "SIT KMUTT",
-    time: "JAN 2023 - PRESENT",
+    time: "MAY 2023",
     description:
       "This project is a backdrop chrome cast screen projector for SIT hackathon 2023. The features are queue list of musics, show next event, show date time and weather, random picture in hackathon event, and countdown. Using react typescript, css, mui, go.",
   },
@@ -20,7 +20,7 @@ export const experience: Exprience[] = [
     id: 2,
     project: "Flutter integrated project",
     position: "SIT KMUTT",
-    time: "JAN 2023 - PRESENT",
+    time: "MAY - JUNE 2023",
     description:
       "Develop mobile applications call Jaijaoni and Laas by using Dart Flutter.",
   },
@@ -28,21 +28,21 @@ export const experience: Exprience[] = [
     id: 3,
     project: "PPS WATER",
     position: "Part.,PPS water Ltd.",
-    time: "DEC 2022- JAN 2023",
+    time: "DEC 2022 - JAN 2023",
     description: "Website that create by react typescript and style with Scss.",
   },
   {
     id: 4,
     project: "CO-PROJECT MANAGER (SECRETARY)",
     position: "SIT KMUTT",
-    time: "AUG-DEC 2022",
+    time: "AUG - DEC 2022",
     description: "Using Agile Methodologies to manage the integrated project.",
   },
   {
     id: 5,
     project: "DETECTIVEXXIII-FRONTEND PROJECT",
     position: "SIT KMUTT",
-    time: "JUL-SEP 2022",
+    time: "JUL - SEP 2022",
     description:
       "front-end development using Typescript, ReactJs, css, Chakra ui.",
   },
@@ -102,7 +102,7 @@ export const activity: Exprience[] = [
     id: 6,
     project: "SHOPEE CODE LEAGUE 2020",
     position: "Shopee",
-    time: "JUN-AUG 2020",
+    time: "JUN - AUG 2020",
     description:
       "Participating 2 months online coding challenge, algorithm questions, competitions and workshop with Python and Java.",
   },

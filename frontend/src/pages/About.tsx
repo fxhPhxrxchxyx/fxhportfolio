@@ -51,9 +51,10 @@ const About = () => {
       <Typography
         variant="h3"
         sx={{
-          fontSize: { xs: "1.5rem", md: "2.5rem" },
+          fontSize: { xs: "2.5rem", md: "3rem" },
           fontWeight: "bold",
-          marginBottom: "40px",
+          marginBottom: "20px",
+          marginTop: "30px",
         }}
       >
         Experience 💻
@@ -63,9 +64,9 @@ const About = () => {
       <Typography
         variant="h3"
         sx={{
-          fontSize: { xs: "1.5rem", md: "2.5rem" },
+          fontSize: { xs: "2.5rem", md: "3rem" },
           fontWeight: "bold",
-          marginBottom: "40px",
+          marginBottom: "20px",
         }}
       >
         Activity 🎞️
