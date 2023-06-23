@@ -11,6 +11,7 @@ const Bio: React.FC<Props> = ({ position }) => {
         display: "flex",
         flexDirection: { xs: "column", md: "row" },
         alignItems: "center",
+        maxWidth: "1100px",
       }}
     >
       <Box sx={{ marginRight: "20px", marginBottom: { xs: "20px" } }}>

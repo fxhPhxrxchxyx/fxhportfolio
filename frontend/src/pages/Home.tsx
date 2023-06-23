@@ -1,4 +1,4 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Container, Stack, Typography } from "@mui/material";
 import React from "react";
 import Bio from "../components/home/Bio";
 import {
@@ -23,8 +23,9 @@ const Home = () => {
         marginBottom: "20px",
         padding: "5px",
       }}
+      key={language.id}
     >
-      <Typography textAlign="center" sx={{ marginTop: "10px" }}>
+      <Typography textAlign="center" sx={{ marginTop: "5px" }}>
         {language.name}
       </Typography>
     </Box>
@@ -40,8 +41,9 @@ const Home = () => {
         marginBottom: "20px",
         padding: "5px",
       }}
+      key={frontD.id}
     >
-      <Typography textAlign="center" sx={{ marginTop: "10px" }}>
+      <Typography textAlign="center" sx={{ marginTop: "5px" }}>
         {frontD.name}
       </Typography>
     </Box>
@@ -57,8 +59,9 @@ const Home = () => {
         marginBottom: "20px",
         padding: "5px",
       }}
+      key={back.id}
     >
-      <Typography textAlign="center" sx={{ marginTop: "10px" }}>
+      <Typography textAlign="center" sx={{ marginTop: "5px" }}>
         {back.name}
       </Typography>
     </Box>
@@ -74,8 +77,9 @@ const Home = () => {
         marginBottom: "20px",
         padding: "5px",
       }}
+      key={mobile.id}
     >
-      <Typography textAlign="center" sx={{ marginTop: "10px" }}>
+      <Typography textAlign="center" sx={{ marginTop: "5px" }}>
         {mobile.name}
       </Typography>
     </Box>
@@ -91,8 +95,9 @@ const Home = () => {
         marginBottom: "20px",
         padding: "5px",
       }}
+      key={database.id}
     >
-      <Typography textAlign="center" sx={{ marginTop: "10px" }}>
+      <Typography textAlign="center" sx={{ marginTop: "5px" }}>
         {database.name}
       </Typography>
     </Box>
@@ -107,8 +112,9 @@ const Home = () => {
         boxShadow: "0px 3px 4px 0px rgba(0, 0, 0, 0.25)",
         marginBottom: "20px",
       }}
+      key={infra.id}
     >
-      <Typography textAlign="center" sx={{ marginTop: "10px" }}>
+      <Typography textAlign="center" sx={{ marginTop: "5px" }}>
         {infra.name}
       </Typography>
     </Box>
@@ -124,8 +130,9 @@ const Home = () => {
         marginBottom: "20px",
         padding: "5px",
       }}
+      key={other.id}
     >
-      <Typography textAlign="center" sx={{ marginTop: "10px" }}>
+      <Typography textAlign="center" sx={{ marginTop: "5px" }}>
         {other.name}
       </Typography>
     </Box>
@@ -148,7 +155,7 @@ const Home = () => {
           display: { xs: "flex", md: "grid" },
           flexDirection: { xs: "row" },
           gap: { xs: "20px" },
-          gridTemplateColumns: "20% 20% 20% 20%",
+          gridTemplateColumns: "25% 25% 25% 25%",
         }}
       >
         <Stack>
