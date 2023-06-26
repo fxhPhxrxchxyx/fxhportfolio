@@ -35,7 +35,7 @@ const Project = () => {
           {project.name}
         </Typography>
         <Typography variant="body1" sx={{ marginLeft: "20px" }}>
-          desc
+          {project.des}
         </Typography>
         <Box
           sx={{
