@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
+import BackToTop from "./components/footer/BackToTop";
 const App: React.FC = () => {
   // const [dark, setDark] = useState(false);
   // const theme = createTheme({
@@ -39,6 +40,7 @@ const App: React.FC = () => {
               <Route path="/project" element={<Project />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
+            <BackToTop/>
           </Box>
         </Container>
         <Footer />
