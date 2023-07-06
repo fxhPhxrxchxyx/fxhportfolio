@@ -1,5 +1,4 @@
-import React from "react";
-import MenuIcon from "@mui/icons-material/Menu";
+import React from "react"
 import useBreakpoint from "../../hook/useBreakpoint";
 import { IconButton, Switch, Typography, useTheme } from "@mui/material";
 import styles from "./Navbar.module.css";
