@@ -27,14 +27,14 @@ const Bio: React.FC<Props> = ({ position }) => {
         />
       </Box>
 
-      <Box>
+      <Box >
         <Typography
           variant="h3"
           sx={{
             marginBottom: "10px",
             fontWeight: "bold",
 
-            fontSize: { xs: "1.35rem", md: "2rem" },
+            fontSize: { xs: "1.1rem", md: "2rem" },
           }}
         >
           <Typewriter
