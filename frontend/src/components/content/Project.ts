@@ -13,7 +13,7 @@ export const proj: Project[] = [
     name: "Lass",
     type: "mobile",
     des: "Lass is an application for help people who difficult to access traditional financial institutions. Also achieve SDG goal number 10 Reduced Inequalities.",
-    link: "www.google.com",
+    link: "https://github.com/shine-bright-team/LAAS-Frontend.git",
   },
   {
     id: 2,
