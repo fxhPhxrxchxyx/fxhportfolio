@@ -8,6 +8,15 @@ export type Exprience = {
 
 export const experience: Exprience[] = [
   {
+    id: 0,
+    project:
+      "Tohome parttime job",
+    position: "Full-stack developer",
+    time: "jul 2023 - present",
+    description:
+      "Develop back office service website for tohome company. Using typescript whit nextJs, css, mui.",
+  },
+  {
     id: 1,
     project:
       "Front-end of Chromecast lock screen projector for SIT hackathon 2023",
@@ -57,6 +66,15 @@ export const experience: Exprience[] = [
 ];
 
 export const activity: Exprience[] = [
+  {
+    id: 0,
+    project: "CS First Date",
+    position:
+      "presedent and Core team(for cs23), guset speaker(for cs24)",
+    time: "19 AUG 2022 and 26 AUG 2023",
+    description:
+      "CS First Date is an event that aims to help new students get to know each other and build relationships between junior and senior members of the program. Teach about Java language (in 2022) and talk about part time job experience (in 2023).",
+  },
   {
     id: 1,
     project: "GDSC KMUTT",
