@@ -14,7 +14,7 @@ export const experience: Exprience[] = [
     position: "Full-stack developer",
     time: "jul 2023 - present",
     description:
-      "Develop back office service website for tohome company. Using typescript whit nextJs, css, mui.",
+      "Develop back office service website for tohome company. Using typescript with nextJs, css, mui.",
   },
   {
     id: 1,
@@ -114,7 +114,7 @@ export const activity: Exprience[] = [
     position: "ChiyoGCP",
     time: "OCT-NOV 2023",
     description:
-      "Participating in bigquery lab challenge via Qwiklabs by google cloud and got Swag Google Cloud.",
+      "Participating in bigquery lab challenge via Qwiklabs using google cloud tools and got Swag Google Cloud.",
   },
   {
     id: 6,

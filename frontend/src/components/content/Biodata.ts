@@ -6,5 +6,5 @@ export type Biodata = {
 export const bio: Biodata = {
   position: "Full-stack software developer",
   description:
-    "Currently I am a Sophomore of Computer Science student at SIT KMUTT.",
+    "Currently I am a Junior of Computer Science student at SIT KMUTT.",
 };
