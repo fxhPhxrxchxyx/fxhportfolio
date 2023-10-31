@@ -17,7 +17,8 @@ export const frontD: Skills[] = [
   { id: 2, name: "CSS" },
   { id: 3, name: "SCSS" },
   { id: 4, name: "ReactJS" },
-  { id: 5, name: "bootstrap-React" },
+  { id: 5, name: "NextJS" },
+  { id: 6, name: "bootstrap-React" },
 ];
 
 export const back: Skills[] = [{ id: 1, name: "NodeJS whit ExpressJs" }];
@@ -38,5 +39,6 @@ export const other: Skills[] = [
   { id: 1, name: "data structures " },
   { id: 2, name: "algorithms" },
   { id: 3, name: "IOT" },
-  { id: 4, name: "photoshop" },
+  { id: 4, name: "data science" },
+  { id: 5, name: "photoshop" },
 ];
