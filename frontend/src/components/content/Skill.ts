@@ -10,6 +10,7 @@ export const language: Skills[] = [
   { id: 4, name: "C" },
   { id: 5, name: "R" },
   { id: 6, name: "Python" },
+  { id: 7, name: "Golang" },
 ];
 
 export const frontD: Skills[] = [
@@ -39,6 +40,7 @@ export const other: Skills[] = [
   { id: 1, name: "data structures " },
   { id: 2, name: "algorithms" },
   { id: 3, name: "IOT" },
-  { id: 4, name: "data science" },
+  { id: 4, name: "data science & AI" },
   { id: 5, name: "photoshop" },
+  { id: 6, name: "Linux command" },
 ];

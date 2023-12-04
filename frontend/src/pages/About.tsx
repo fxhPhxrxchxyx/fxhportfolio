@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Container, Divider, Stack, Typography } from "@mui/material";
-import { experience, activity } from "../components/content/Exprience";
+import { experience, activity } from "../components/content/Experience";
 import Bio from "../components/home/Bio";
 
 const About = () => {

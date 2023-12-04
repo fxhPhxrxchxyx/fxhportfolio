@@ -9,24 +9,30 @@ export type Exprience = {
 export const experience: Exprience[] = [
   {
     id: 0,
-    project:
-      "ICT Challenge 2023 and SIT open house ",
+    project: "COD camara object detection",
+    position: "AI",
+    time: "sep - dec 2023",
+    description:
+      "This is the system to make student focus more on the physical content in the classroom. The cod have feature for auto position camera according to the position of subject (person) and auto zooming to items according to hand gesture ( pointing to object gesture ). By traing AI using Yolo8 and OpenCV for Human detection,Common object detection, Hand gesture pointing detection for zooming and integrate with IOT.",
+  },
+  {
+    id: 1,
+    project: "ICT Challenge 2023 and SIT open house ",
     position: "Full-stack developer , design",
     time: "oct - nov 2023",
     description:
       "Develop website for ICT challenge 2023. Using typescript with nextJs, css, mui, tailwind. Also design card ID for staff of SIT open house 2023.",
   },
   {
-    id: 1,
-    project:
-      "Tohome parttime job",
+    id: 2,
+    project: "Tohome parttime job",
     position: "Full-stack developer",
     time: "jul 2023 - present",
     description:
       "Develop back office service website for tohome company. Using typescript with nextJs, css, mui.",
   },
   {
-    id: 2,
+    id: 3,
     project:
       "Front-end of Chromecast lock screen projector for SIT hackathon 2023",
     position: "SIT KMUTT",
@@ -35,7 +41,7 @@ export const experience: Exprience[] = [
       "This project is a backdrop chrome cast screen projector for SIT hackathon 2023. The features are queue list of musics, show next event, show date time and weather, random picture in hackathon event, and countdown. Using react typescript, css, mui, go.",
   },
   {
-    id: 3,
+    id: 4,
     project: "Flutter integrated project",
     position: "SIT KMUTT",
     time: "MAY - JUNE 2023",
@@ -43,21 +49,21 @@ export const experience: Exprience[] = [
       "Develop mobile applications call Jaijaoni and Laas by using Dart Flutter.",
   },
   {
-    id: 4,
+    id: 5,
     project: "PPS WATER",
     position: "Part.,PPS water Ltd.",
     time: "DEC 2022 - JAN 2023",
     description: "Website that create by react typescript and style with Scss.",
   },
   {
-    id: 5,
+    id: 6,
     project: "CO-PROJECT MANAGER (SECRETARY)",
     position: "SIT KMUTT",
     time: "AUG - DEC 2022",
     description: "Using Agile Methodologies to manage the integrated project.",
   },
   {
-    id: 6,
+    id: 7,
     project: "DETECTIVEXXIII-FRONTEND PROJECT",
     position: "SIT KMUTT",
     time: "JUL - SEP 2022",
@@ -65,7 +71,7 @@ export const experience: Exprience[] = [
       "front-end development using Typescript, ReactJs, css, Chakra ui.",
   },
   {
-    id: 7,
+    id: 8,
     project: "HELLO ERMINE CAMP",
     position: "SIT KMUTT",
     time: "OCT-NOV 2021",
@@ -78,8 +84,7 @@ export const activity: Exprience[] = [
   {
     id: 0,
     project: "CS First Date",
-    position:
-      "presedent and Core team(for cs23), guset speaker(for cs24)",
+    position: "presedent and Core team(for cs23), guset speaker(for cs24)",
     time: "19 AUG 2022 and 26 AUG 2023",
     description:
       "CS First Date is an event that aims to help new students get to know each other and build relationships between junior and senior members of the program. Teach about Java language (in 2022) and talk about part time job experience (in 2023).",
@@ -121,7 +126,7 @@ export const activity: Exprience[] = [
     id: 5,
     project: "Google could",
     position: "ChiyoGCP",
-    time: "OCT-NOV 2023",
+    time: "OCT-NOV 2022 and 2023",
     description:
       "Participating in bigquery lab challenge via Qwiklabs using google cloud tools and got Swag Google Cloud.",
   },
