@@ -151,11 +151,9 @@ const Home = () => {
       </Typography>
       <Stack
         sx={{
-          flexWrap: { xs: "wrap" },
-          display: { xs: "flex", md: "grid" },
-          flexDirection: { xs: "row" },
+          display: { xs: "block", md: "grid" },
+          gridTemplateColumns: { md: "repeat(4, 1fr)" },
           gap: { xs: "20px" },
-          gridTemplateColumns: "25% 25% 25% 25%",
         }}
       >
         <Stack>
@@ -168,7 +166,15 @@ const Home = () => {
           >
             Language
           </Typography>
-          {languageList}
+          <Stack
+            sx={{
+              display: { xs: "grid" },
+              gridTemplateColumns: { xs: "repeat(2, 1fr)" },
+              gap: { md: "20px" },
+            }}
+          >
+            {languageList}
+          </Stack>
         </Stack>
         <Stack>
           <Typography
@@ -180,7 +186,15 @@ const Home = () => {
           >
             Front-end
           </Typography>
-          {frontDList}
+          <Stack
+            sx={{
+              display: { xs: "grid" },
+              gridTemplateColumns: { xs: "repeat(2, 1fr)" },
+              gap: { md: "20px" },
+            }}
+          >
+            {frontDList}
+          </Stack>
         </Stack>
         <Stack>
           <Typography
@@ -192,8 +206,17 @@ const Home = () => {
           >
             Back-end
           </Typography>
-          {backList}
+          <Stack
+            sx={{
+              display: { xs: "grid" },
+              gridTemplateColumns: { xs: "repeat(2, 1fr)" },
+              gap: { md: "20px" },
+            }}
+          >
+            {backList}
+          </Stack>
         </Stack>
+
         <Stack>
           <Typography
             variant="h5"
@@ -204,8 +227,17 @@ const Home = () => {
           >
             Mobile
           </Typography>
-          {mobileList}
+          <Stack
+            sx={{
+              display: { xs: "grid" },
+              gridTemplateColumns: { xs: "repeat(2, 1fr)" },
+              gap: { md: "20px" },
+            }}
+          >
+            {mobileList}
+          </Stack>
         </Stack>
+
         <Stack>
           <Typography
             variant="h5"
@@ -216,7 +248,15 @@ const Home = () => {
           >
             Databese
           </Typography>
-          {databaseList}
+          <Stack
+            sx={{
+              display: { xs: "grid" },
+              gridTemplateColumns: { xs: "repeat(2, 1fr)" },
+              gap: { md: "20px" },
+            }}
+          >
+            {databaseList}
+          </Stack>
         </Stack>
         <Stack>
           <Typography
@@ -228,7 +268,15 @@ const Home = () => {
           >
             Infra
           </Typography>
-          {infraList}
+          <Stack
+            sx={{
+              display: { xs: "grid" },
+              gridTemplateColumns: { xs: "repeat(2, 1fr)" },
+              gap: { md: "20px" },
+            }}
+          >
+            {infraList}
+          </Stack>
         </Stack>
         <Stack>
           <Typography
@@ -240,7 +288,15 @@ const Home = () => {
           >
             Others
           </Typography>
-          {othersList}
+          <Stack
+            sx={{
+              display: { xs: "grid" },
+              gridTemplateColumns: { xs: "repeat(2, 1fr)" },
+              gap: { md: "20px" },
+            }}
+          >
+            {othersList}
+          </Stack>
         </Stack>
       </Stack>
     </Box>

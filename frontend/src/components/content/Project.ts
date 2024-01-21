@@ -50,4 +50,18 @@ export const proj: Project[] = [
     des: "This project is a bedtime story for children it about shepherd boy.",
     web: "https://shepherd-boy.web.app/",
   },
+  {
+    id: 7,
+    name: "Malong",
+    type: "web",
+    des: "This is an idea competition that focuses on using technology to help students and undergraduates achieve the Sustainable Development Goals (SDGs).",
+    web: "https://malonghack.com/",
+  },
+  {
+    id: 8,
+    name: "ICT Challenge",
+    type: "web",
+    des: "me and my team(sit) create website for ICT challenge 2023. Using typescript with nextJs, css, mui, tailwind and integrate api to backend. Also design card ID for staff of SIT open house 2023.",
+    web: "https://openhouse2023.sit.kmutt.ac.th/",
+  },
 ];
