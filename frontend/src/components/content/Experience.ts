@@ -13,7 +13,7 @@ export const experience: Exprience[] = [
     position: "Full stack developer",
     time: "June 2024 - December 2024",
     description:
-      "Developed internal hotel promotion settings for .NET applications, enhancing functionality and user engagement through front-end and back-end solutions using React, TypeScript, C# ASP.NET Core, and GraphQL. Improved UI responsiveness for over 17,000+ clients per months. Optimized API performance with a 120% boost via database migration, and created dashboards for analysis, proposing scalable solutions and monitoring system performance.",
+      "Developed hotel promotion settings for .NET applications, enhancing functionality and user engagement through front-end and back-end solutions using React, TypeScript, C# ASP.NET Core, and GraphQL. Improved UI responsiveness for over 17,000+ clients per months. Optimized API performance with a 120% boost via database migration, and created dashboards for analysis, proposing scalable solutions and monitoring system performance.",
   },
   {
     id: 2,
