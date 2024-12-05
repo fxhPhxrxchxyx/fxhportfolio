@@ -9,6 +9,13 @@ export type Project = {
 
 export const proj: Project[] = [
   {
+    id: 0,
+    name: "CS SEM TRACK",
+    type: "web",
+    des: "Streamlines seminar management for CS students and faculty, enabling seat reservations, progress tracking, and seminar creation. It reduces administrative workload, enhancing efficiency and allowing focus on core responsibilities.",
+    web: "https://seniorproject.sit.kmutt.ac.th/showproject/CS64-BU05",
+  },
+  {
     id: 1,
     name: "Lass",
     type: "mobile",

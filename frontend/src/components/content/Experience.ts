@@ -9,14 +9,38 @@ export type Exprience = {
 export const experience: Exprience[] = [
   {
     id: 1,
+    project: "Software Engineer Intern@Agoda",
+    position: "Full stack developer",
+    time: "June 2024 - December 2024",
+    description:
+      "Developed internal hotel promotion settings for .NET applications, enhancing functionality and user engagement through front-end and back-end solutions using React, TypeScript, C# ASP.NET Core, and GraphQL. Improved UI responsiveness for over 17,000+ clients per months. Optimized API performance with a 120% boost via database migration, and created dashboards for analysis, proposing scalable solutions and monitoring system performance.",
+  },
+  {
+    id: 2,
+    project: "CS SEM TRACK (Capstone project)",
+    position: "Developer lead Full stack",
+    time: "September - November 2024",
+    description:
+      "Developed a seminar tracking system for CS SIT faculty, benefiting staff and students. Features include data management dashboards with Excel import/export, a reservation system, and attendance tracking via QR codes with real-time WebSocket updates. Integrated LDAP for authorization, SMTP for email notifications, and hosted on SIT VM using Nginx and Rocky OS. Built with MySQL, Go Fiber, and GORM, the system incorporates Swagger OpenAPI and Axios, with a React.js, TypeScript, and Tailwind CSS interface for seamless functionality and design.",
+  },
+  {
+    id: 3,
+    project: "Part time at Asian Star Trading Co, Ltd ",
+    position: "Software Engineer ",
+    time: "july 2023 - Feburary 2024",
+    description: "Develop back office management system using TypeScript, Next.js, MUI CSS, Axios, SQLite, Node.js"
+  },
+  {
+    id: 4,
     project: "Malong GDSC 2024",
     position: "Front-end developer",
     time: "12-14 January 2024",
     description:
       "I am taking on the responsibility of overseeing the development of the Malong 2024 project. This is an idea competition that focuses on using technology to help students and undergraduates achieve the Sustainable Development Goals (SDGs).",
+ 
   },
   {
-    id: 2,
+    id: 6,
     project: "COD camara object detection",
     position: "AI",
     time: "sep - dec 2023",
@@ -24,7 +48,7 @@ export const experience: Exprience[] = [
       "This is the system to make student focus more on the physical content in the classroom. The cod have feature for auto position camera according to the position of subject (person) and auto zooming to items according to hand gesture ( pointing to object gesture ). By traing AI using Yolo8 and OpenCV for Human detection,Common object detection, Hand gesture pointing detection for zooming and integrate with IOT.",
   },
   {
-    id: 3,
+    id: 7,
     project: "ICT Challenge 2023 and SIT open house ",
     position: "Full-stack developer , design",
     time: "oct - nov 2023",
@@ -32,15 +56,7 @@ export const experience: Exprience[] = [
       "Develop website for ICT challenge 2023. Using typescript with nextJs, css, mui, tailwind. Also design card ID for staff of SIT open house 2023.",
   },
   {
-    id: 4,
-    project: "Tohome parttime job",
-    position: "Full-stack developer",
-    time: "jul 2023 - present",
-    description:
-      "Develop back office service website for tohome company. Using typescript with nextJs, css, mui.",
-  },
-  {
-    id: 5,
+    id: 9,
     project:
       "Front-end of Chromecast lock screen projector for SIT hackathon 2023",
     position: "SIT KMUTT",
@@ -49,7 +65,7 @@ export const experience: Exprience[] = [
       "This project is a backdrop chrome cast screen projector for SIT hackathon 2023. The features are queue list of musics, show next event, show date time and weather, random picture in hackathon event, and countdown. Using react typescript, css, mui, go.",
   },
   {
-    id: 6,
+    id: 10,
     project: "Flutter integrated project",
     position: "SIT KMUTT",
     time: "MAY - JUNE 2023",
@@ -57,21 +73,21 @@ export const experience: Exprience[] = [
       "Develop mobile applications call Jaijaoni and Laas by using Dart Flutter.",
   },
   {
-    id: 7,
+    id: 11,
     project: "PPS WATER",
     position: "Part.,PPS water Ltd.",
     time: "DEC 2022 - JAN 2023",
     description: "Website that create by react typescript and style with Scss.",
   },
   {
-    id: 8,
+    id: 12,
     project: "CO-PROJECT MANAGER (SECRETARY)",
     position: "SIT KMUTT",
     time: "AUG - DEC 2022",
     description: "Using Agile Methodologies to manage the integrated project.",
   },
   {
-    id: 9,
+    id: 13,
     project: "DETECTIVEXXIII-FRONTEND PROJECT",
     position: "SIT KMUTT",
     time: "JUL - SEP 2022",
@@ -79,7 +95,7 @@ export const experience: Exprience[] = [
       "front-end development using Typescript, ReactJs, css, Chakra ui.",
   },
   {
-    id: 10,
+    id: 14,
     project: "HELLO ERMINE CAMP",
     position: "SIT KMUTT",
     time: "OCT-NOV 2021",
@@ -120,7 +136,7 @@ export const activity: Exprience[] = [
     position: "SIT-CS-KMUTT",
     time: "Mar 2022 - PRESENT",
     description:
-      "Team and me often hold an event for incoming CS students at CS@SIT to help them get ready for their first class and build relationships between junior and senior members of the program. The leading team also acts as the class's voice to the instructor.",
+      "Coordinated and organized over 10 events for CS students at CS@SIT, fostering relationships between junior and senior members and preparing students for their first class. Represented the class by negotiate with instructors on student concerns and facilitating effective communication.",
   },
   {
     id: 5,
