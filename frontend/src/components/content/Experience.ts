@@ -13,7 +13,7 @@ export const experience: Exprience[] = [
     position: "Full stack developer",
     time: "June 2024 - December 2024",
     description:
-      "Developed hotel promotion settings for .NET applications, enhancing functionality and user engagement through front-end and back-end solutions using React, TypeScript, C# ASP.NET Core, and GraphQL. Improved UI responsiveness for over 17,000+ clients per months. Optimized API performance with a 120% boost via database migration, and created dashboards for analysis, proposing scalable solutions and monitoring system performance.",
+      "Contributed 8,445 lines of code across 13 MRs, enhancing functionality and user engagement, and successfully boosted daily hotel discount campaign activations by 130. Developed the hotel promotion settings page for Agoda's hotel management system, used by over 400,000 hotels globally. Improved UI responsiveness, enhancing user engagement for 17,000+ clients monthly, and optimized API performance by 120%. Designed and implemented front-end, back-end, and integration solutions using React, TypeScript, CSS, Drone.js, C# ASP.NET Core, GraphQL, Grafana, and Metabase. Created dashboards for in-depth analysis, enhancing system performance and scalability.",
   },
   {
     id: 2,
