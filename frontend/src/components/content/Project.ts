@@ -66,9 +66,9 @@ export const proj: Project[] = [
   },
   {
     id: 8,
-    name: "ICT Challenge open house",
+    name: "ICT Challenge oph",
     type: "web",
-    des: "me and my team(sit) create website for open house ICT challenge 2023. Using typescript with nextJs, css, mui, tailwind and integrate api to backend. Also design card ID for staff of SIT open house 2023.",
+    des: "me and my team(sit) create website for ICT challenge 2023. Using typescript with nextJs, css, mui, tailwind and integrate api to backend. Also design card ID for staff of SIT open house 2023.",
     link: "https://github.com/ThisTine/sit-openhouse.git",
   },
 ];
