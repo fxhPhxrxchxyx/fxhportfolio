@@ -62,13 +62,13 @@ export const proj: Project[] = [
     name: "Malong",
     type: "web",
     des: "This is an idea competition that focuses on using technology to help students and undergraduates achieve the Sustainable Development Goals (SDGs).",
-    web: "https://malonghack.com/",
+    link: "https://github.com/ThisTine/sit-openhouse.git",
   },
   {
     id: 8,
-    name: "ICT Challenge",
+    name: "ICT Challenge open house",
     type: "web",
-    des: "me and my team(sit) create website for ICT challenge 2023. Using typescript with nextJs, css, mui, tailwind and integrate api to backend. Also design card ID for staff of SIT open house 2023.",
-    web: "https://openhouse2023.sit.kmutt.ac.th/",
+    des: "me and my team(sit) create website for open house ICT challenge 2023. Using typescript with nextJs, css, mui, tailwind and integrate api to backend. Also design card ID for staff of SIT open house 2023.",
+    link: "https://github.com/ThisTine/sit-openhouse.git",
   },
 ];
